@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="../css/bootstrap.min.css">
+        <link rel="stylesheet" href="../css/egypt.css">
+        <link rel="stylesheet" href="../css/main.css">
+        <script src="https://kit.fontawesome.com/f31eb823ea.js" crossorigin="anonymous"></script>
+
+    </head>
+    <body>
+        <!--Our Sticky Navbar-->
+        <nav class="navbar sticky-top navbar-expand-lg bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="../index1.html">
+                    <img src="../images/logo.png" width="30" height="30" class="d-inline-block align-top"> Vantage</a>
+                <ul class="navbar-nav ml-auto">
+
+                    <!--Most of the website contents is here-->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" data-toggle="dropdown" >Tours</a>  
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="../Tours/task/index4.html">Africa</a>
+                                <a class="dropdown-item" href="../Tours/task/index2.html">Europe</a>
+                                <a class="dropdown-item" href="../Tours/task/index1.html">Asia</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="../TravelWithStrangers/mediatation.html">Meditation</a>
+                                <a class="dropdown-item" href="../TravelWithStrangers/skating.html">Skating</a>
+                                <a class="dropdown-item" href="../With%2520family/traveling">With Family</a>
+                            </div>
+                    </li>
+
+                    <!--Encourage tourists to come Egypt-->
+                    <li class="navbar-item">
+                        <a class="nav-link" href="index.html" >GotoEgypt</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <!--First Section-->
+        <div class="container p-5" id="egyptHome">
+            <div class="row">
+
+                <!--Pyramids Images-->
+                <div class="col-md-6 p-3" id="leftSection"></div>
+
+                <!--Places you can go\ Categories-->
+                <div class="col-md-6 " id="rightSection">
+                    <h4 class="text-center p-3 mt-5"> Let's deciede where like to go!</h4> 
+                    <button type ="button" class="btn btn-light btn-block m-2"><a href="#ancientEgypt" >Ancient Egypt</a></button>
+                    <button type="button" class="btn btn-light btn-block m-2"><a href="#religiousMonuments" >Religious Monuments</a></button>
+                </div>
+            </div>
+        </div>
+
+        <!--Informations& Places about ancient Egypt-->
+        <div class="shadow-lg p-3 mb-5 bg-white rounded">
+            
+            <!--First Place-->
+            <div class="container" id="ancientEgypt">
+                <div class="row">
+                    <div class="col-md-6">
+
+                    <h4>Abu Simbel</h4>
+                    <p>ARCHAEOLOGICAL SITE, EGYPT</p>
+                    <hr>
+                    <p>Abu Simbel, site of two temples built by the Egyptian king Ramses II (reigned 1279–13 BCE), now located in Aswān muḥāfaẓah (governorate), southern Egypt. In ancient times the area was at the southern frontier of pharaonic Egypt, facing Nubia. The four colossal statues of Ramses in front of the main temple are spectacular examples of ancient Egyptian art. By means of a complex engineering feat in the 1960s, the temples were salvaged from the rising waters of the Nile River caused by erection of the Aswan High Dam.
+                    </p>
+
+                    </div>
+
+                    <!--Image for the place -->
+                    <div class="col-md-6">
+                        <img src="../images/abo%20simble.jpg" width="400" height="400" class="float-right">
+                    </div>
+                </div>        
+            </div>
+            
+                <!--Second Place-->
+                <div class="container" >
+                    <div class="row m-3">
+
+                      <!--Image for the place -->
+                     <div class="col-md-6">
+                        <img src="../images/akhenaten.jpg" class="float-left">
+                    </div>
+
+                     <!--Informations& Places about ancient Egypt-->
+                    <div class="col-md-6">  
+                        <h4>Egyptian Museum <span class="lead">(Akhenaten Statue)</span></h4>
+                        <p>museum in Cairo</p>
+                        <hr>
+                        <p>One of the world’s most important collections of ancient artefacts, the Egyptian Museum takes pride of place in Downtown Cairo, on the north side of Midan Tahrir. Inside the great domed, oddly pinkish building, the glittering treasures of Tutankhamun and other great pharaohs lie alongside the grave goods, mummies, jewellery, eating bowls and toys of Egyptians whose names are lost to history.
+                        </p>
+                    </div>
+                </div>         
+            </div>
+        </div>
+        <hr>
+
+        <!--Religious Monuments\ Mosques-->
+
+         <div class="container mb-0 mt-3" id="religiousMonuments">
+
+             <!--Mosque 1-->
+            <div class="row">
+                <div class="col-3 p-2">
+                    <img src ="../images/ahmad%20ebn%20tolon.jpg" width="270" height="200" >
+                </div>
+
+                <!--Describtion-->
+                <div class="col-md-6">
+                    <h4>Mosque of Ibn Tulun 
+                        <span class="starIcon"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span>
+                    </h4>
+                    <p>This is considered one of Egypt's largest and oldest mosques, which was built between AD 876 and AD 879 by an Abbasid governor sent from Baghdad to rule over Egypt.</p>
+
+                    <!--Go to more tours \Box-->
+                    <div class="availableTours">
+                        <div class="shadow-sm p-3 mb-5 bg-white rounded">
+                            <h6><i class="fas fa-walking" ></i> +10 Tours & places</h6>
+                            <p><samll>Culutrs tours, Epyptian tours, with family or strangers & more</samll></p>
+                            <button type="button" class="btn btn-dark" ><a href="../index1.html" class="availableTourLink">Available tours <i class="fas fa-globe-africa"></i></a></button>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!--Google Map\ Location of the mosque-->
+                <div class="col-3 p-2">
+                    <div id="map-container-google-1" class="z-depth-1-half map-container" style="height: 500px">
+                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3454.284633782226!2d31.247205415114657!3d30.028690981888005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1458474d2b6e49a7%3A0x4082ac9340e4d952!2sMosque%20of%20Ibn%20Tulun!5e0!3m2!1sen!2seg!4v1586185212460!5m2!1sen!2seg" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                    </div>
+                </div>
+            </div>
+
+             <!--Mosque 2-->
+             <div class="row">
+
+                 <!--Mosque Picture-->
+                <div class="col-3 p-2">
+                    <img src ="../images/sultan%20hassan.jpg" width="270" height="200" >
+                </div>
+
+                 <!--Describtion-->
+                <div class="col-md-6">
+                    <h4>Sultan Hassan Mosque
+                        <span class="starIcon"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span>
+                    </h4>
+                    <p>he Mosque-Madrassa of Sultan Hassan is a monumental mosque and madrassa located in the historic district of Cairo, Egypt. It was built between 1356 and 1363</p>
+
+                    <!--Go to more tours \Box-->
+                    <div class="availableTours">
+                        <div class="shadow-sm p-3 mb-5 bg-white rounded">
+                            <h6><i class="fas fa-walking" ></i> +10 Tours & places</h6>
+                            <p><samll>Culutrs tours, Epyptian tours, with family or strangers & more</samll></p>
+                            <button type="button" class="btn btn-dark" >Available tours <i class="fas fa-globe-africa"></i></button>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-3 p-2">
+                    <!--Google Map\ Location of the mosque-->
+                    <div id="map-container-google-1" class="z-depth-1-half map-container" style="height: 500px">
+                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3454.159589161449!2d31.25398171511488!3d30.032279081886752!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x145840ac0ae91775%3A0x74c6b9904c0f8ce4!2sMosque-Madrassa%20of%20Sultan%20Hassan!5e0!3m2!1sen!2seg!4v1586187452926!5m2!1sen!2seg" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+<!--cookies section-->
+        <div class="container  fixed-bottom" style="background-color:#0f143d;border-radius:5px ">
+            <div class="row bg-dark">
+                <div class="col-sm-12 ">
+                    <div class="alert  alert-dismissible fade show cookies p-3">
+                        
+                        <button class="close hover" data-dismiss="alert">&times;</button>
+                        <span class="text-light">We use cookies to enhance your user experience</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer -->
+            <div class="page-footer font-small">
+                <div class="container-fluid bg-light p-4 ">
+                  <div class="container">
+                      <div class="row">
+
+                      <!--Address\ phone\ email-->  
+                      <div class="col-sm-6 ">
+                          <p><i class="fas fa-map-marker-alt mr-3"></i> 21 El-Horya street, Cairo, Egypt</p>
+                          <p><i class="fas fa-phone-alt mr-3"></i> +1 232 969743</p>
+                          <p><i class="fas fa-envelope-square mr-3"></i> support@company.com</p>
+                      </div>
+
+                      <!--About us-->
+                      <div class="col-sm-6 ">
+                          <h5>About Us</h5>  
+                          <small>It is a long established fact that a reader page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normala</small>
+                          <p class="text-dark" ><i class="fab fa-linkedin-in m-2"></i> <i class="fab fa-facebook-f m-2"></i> <i class="fab fa-twitter m-2"></i></p>
+                      </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        <script src="../js/jquery.min.js"></script>
+        <script src="../js/bootstrap.min.js"></script>
+    </body>
+    
+    
+</html>

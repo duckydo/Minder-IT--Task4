@@ -1,0 +1,41 @@
+/*Egypt Page*/
+
+/*pyramids image at home*/
+#leftSection{
+    background-image: url("../images/egypt.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%; 
+    height: 512px;
+}
+
+/*mkan el main buttons*/
+#egyptHome #rightSection { padding-top: 100px; }
+
+/*Links inside those buttons*/
+#egyptHome #rightSection a{ 
+    text-decoration: none;
+    color: black;
+}
+/*Star icons*/
+.starIcon { 
+    color: yellow; 
+    font-size: 15px;
+}
+
+/*Icone of available tours*/
+#religiousMonuments .availableTours i{ color: gray; }
+
+/*Map Styyling*/
+.map-container{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+}
+/*Frame of the map*/
+.map-container iframe{
+    left:0;
+    top:0;
+    position:absolute;
+    height: 200px;
+}

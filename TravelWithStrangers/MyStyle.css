@@ -1,0 +1,66 @@
+body
+{ /*gray color to the background NOTE: ATTRIBUTE IS REPEATED IN CONTAINERS classes */
+background-color:rgb(250,251,252)
+}
+.part1, .part3
+{ /* small padding between each part */
+   padding-top:100px;
+    
+}
+.text1 ,.text3 /*text font &color */
+{
+    font-size:20px;
+    font-family: 'Kalam';
+}
+.padding-top /* small padding to the image in part 2 */
+{
+    padding-top:5px
+}
+.part2 
+{
+    margin-top:100px;
+}
+
+.text2
+{
+   
+    text-align:left;
+    font-size:20px;
+    font-family: 'Kalam';}
+.col-md-4.text2 /*small margin to text in part2 */
+{
+margin-left:24px;
+}
+.part3 /*  padding for cookies part to prevent overlapping between it and text (UX TricK) */
+{
+   padding-bottom: 70px;
+}
+.close-button /* close button of cookies part */ 
+{
+    font-size:20px;
+}
+.cookies
+{
+    margin-left:10px;
+}
+.font
+{
+font-size:10px;
+
+
+
+}
+ /*  some simple effects on close button */
+button:hover
+{background-color:white;
+border-radius: 40px;
+color:black;}
+.alert /* alert font color */
+{
+color:white;
+background-color:#0f143d;
+}
+
+/* 
+#0f143d for cookies dark blue color 
+*/

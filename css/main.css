@@ -1,0 +1,50 @@
+/* Container Fluid \ some edits so i can get div over div by z index abd stuff */
+#c-f{
+    border: 0;
+    margin: 0;
+    height: 466px;
+    background-image: url("../images/italy.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;    
+    z-index: -10;
+}
+
+/* Container Fluid \ text*/
+#c-f .contents{
+    text-align: center;
+    margin: 60px;  
+}
+
+/*Explore the world text \ header&paragraph */
+
+#c-f h4 { font-family: 'Do Hyeon', sans-serif; }
+#c-f .contents p{ font-family: 'Comic Neue', cursive; font-size: 20px;}
+
+/*this div over the previous*/
+#most .mostvisited{
+    font-size: 40px;
+    font-family: 'Indie Flower', cursive;
+    color: white;
+}
+
+/*eye icon between most visited text*/
+#lookIcon{ color: white;}
+
+/*Border of each card*/
+.card{ border: 0;}
+
+/*love Icon*/
+#love{ color: red; }
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{ color: bisque;}
+
+/*I need to do this so I can see footer content at the main page*/
+footer{ 
+    margin-top: 359px;
+}
